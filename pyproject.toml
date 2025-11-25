@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "godly-builder"
+version = "0.1.0"
+description = "multibuilder"
+authors = ["Sett Sarverott A.A.B. <sarverott@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "godly_builder"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
