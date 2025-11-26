@@ -1,16 +1,28 @@
-[tool.poetry]
+[project]
 name = "godly-builder"
 version = "0.1.0"
-description = "multibuilder"
-authors = ["Sett Sarverott A.A.B. <sarverott@gmail.com>"]
-license = "MIT"
+description = "Add your description here"
 readme = "README.md"
-packages = [{include = "godly_builder"}]
-
-[tool.poetry.dependencies]
-python = "^3.11"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.11"
+dependencies = [
+    "appimage-builder>=1.1.0",
+    "argostranslate>=1.10.0",
+    "beautifulsoup4>=4.14.2",
+    "cmake-init>=0.41.1",
+    "docker>=7.1.0",
+    "esptool>=5.1.0",
+    "gitpython>=3.1.45",
+    "go-task-bin>=3.45.5",
+    "marked>=0.9.1",
+    "mcp[cli]>=1.22.0",
+    "nuitka>=2.8.6",
+    "ollama>=0.6.1",
+    "paramiko>=4.0.0",
+    "pure-python-adb>=0.3.0.dev0",
+    "pygithub>=2.8.1",
+    "requests>=2.32.5",
+    "selenium>=4.38.0",
+    "sphinx>=8.2.3",
+    "ufbt>=0.2.6",
+    "virtualbox>=2.1.1",
+]
