@@ -1,0 +1,8 @@
+[submodule "build-openwrt"]
+	path = factorial-libs/openwrt/.factormakery
+	url = https://github.com/The-Apokryf/openwrt___openwrt.git
+	branch = main
+[submodule "build-crdroid"]
+	path = factorial-libs/crdroid/.factormakery
+	url = https://github.com/The-Apokryf/crdroidandroid___android.git
+	branch = main
