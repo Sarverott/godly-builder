@@ -6,3 +6,19 @@
 	path = factorial-libs/crdroid/.factormakery
 	url = https://github.com/The-Apokryf/crdroidandroid___android.git
 	branch = main
+[submodule "build-wasm"]
+	path = factorial-libs/ecmascripten/.factormakery
+	url = https://github.com/The-Apokryf/emscripten-core___emsdk.git
+	branch = main
+[submodule "build-armbian"]
+	path = factorial-libs/armbian/.factormakery
+	url = https://github.com/The-Apokryf/armbian___build
+	branch = main
+[submodule "build-modelgguf"]
+	path = factorial-libs/llama-cpp/.factormakery
+	url = https://github.com/The-Apokryf/ggml-org___llama.cpp.git
+	branch = master
+[submodule "make-ventoy-drive"]
+	path = factorial-libs/ventoy/.factormakery
+	url = https://github.com/The-Apokryf/ventoy___Ventoy.git
+	branch = master
