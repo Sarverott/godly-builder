@@ -22,3 +22,7 @@
 	path = factorial-libs/ventoy/.factormakery
 	url = https://github.com/The-Apokryf/ventoy___Ventoy.git
 	branch = master
+[submodule "make-arduino-cli"]
+	path = factorial-libs/arduino-cli/.factormakery
+	url = https://github.com/The-Apokryf/arduino___arduino-cli.git
+	branch = master
